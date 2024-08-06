@@ -1,0 +1,162 @@
+.main-hero .intro-text {
+  background: #0d6efd;
+  padding-top: 9rem;
+  padding-bottom: 14rem; }
+  .main-hero .intro-text .heading {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center; }
+  .main-hero .intro-text h1 {
+    font-weight: 700;
+    font-size: 6rem;
+	margin-bottom:30px; }
+    @media (max-width: 991.98px) {
+      .main-hero .intro-text h1 {
+        font-size: 2rem; } }
+  .main-hero .intro-text .excerpt {
+    margin: 0 auto; }
+  
+.main-hero .intro-image {
+  margin-top: -200px;
+  margin-bottom: 0px; }
+  @media (max-width: 991.98px) {
+    .main-hero .intro-image {
+        margin-top: -200px; } }
+    .main-hero .intro-image img {
+      -webkit-box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.05);
+      box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.05);
+      border-radius: 7px; }
+  
+  .main-hero .overlap-image {
+    margin-top: -200px;
+    margin-bottom: 0px; }
+    @media (max-width: 991.98px) {
+      .main-hero .overlap-image {
+        margin-top: -200px; } }
+    .main-hero .overlap-image .owl-single {
+      border-radius: 7px;
+      overflow: hidden; }
+
+
+      .section-counter {
+        padding: 70px 0 0 0; }
+        .section-counter h2 {
+          margin-bottom: 30px;
+          font-size: 1.2rem;
+          font-weight: 400; }
+        .section-counter .counter {
+          font-size: 3rem;
+          font-weight: 700; }
+
+.card {
+  border: none;
+	position: relative;
+	width: 380px;
+	height: auto;
+	background: rgba(255, 255, 255, 0.05);
+	margin-top: 20px;
+  margin-bottom: 20px;
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  transition: 0.5s;
+}
+
+.card:hover {
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+  transform: translateY(-10px);
+}
+
+.container .card .content {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	transition: 0.5s;
+}
+
+.container .card:hover .content {
+	transform: translateY(-23px);
+}
+
+.container .card .content .imgBx {
+	position: relative;
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
+}
+
+.container .card .content .imgBx img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.container .card .content .contentBx h3 {
+	color: black;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 500;
+	font-size: 18px;
+	text-align: center;
+	margin: 20px 0 10px;
+	line-height: 1.1em;
+}
+
+.container .card .content .contentBx h3 span {
+	font-size: 12px;
+	font-weight: 300;
+	text-transform: initial;
+}
+
+.container .card .more {
+	bottom: 50px;
+	display: flex;
+}
+
+.card .more a {
+	list-style: none;
+	margin: 0 10px;
+	transition: 0.5s;
+	opacity: 0;
+}
+
+.card:hover .more a {
+	opacity: 1;
+}
+
+.card .more a {
+	color: black;
+}
+
+.about-card{
+	border: 1px solid #e0e0e0;
+    border-radius: 8px;
+	height: auto;
+}
+
+.rounded-img {
+	width: 100%; /* Lebar gambar 100% dari lebar parent */
+	height: 100%; /* Tinggi gambar 100% dari tinggi parent */
+	object-fit: cover; /* Menggunakan object-fit untuk crop gambar */
+}
+
+.cardview {
+  border: none;
+	position: relative;
+	width: 380px;
+	height: auto;
+	background: rgba(255, 255, 255, 0.05);
+	margin-top: 5px;
+  margin-bottom: 5px;
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+}
